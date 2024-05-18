@@ -1,0 +1,50 @@
+body {
+    font-family: Nunito;
+    background-color: #d8dee3;
+    color: rgba(0,0,0,0.8);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+.boogaloo {
+    font-family: "Boogaloo", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.reyhide::-webkit-scrollbar {
+    width: 20px;
+}
+
+.reyhide::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.reyhide::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.reyhide::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
